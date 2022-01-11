@@ -1,0 +1,16 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteRule "^home/$" "index.php" [L]
+RewriteRule "^about/$" "doctor-profile.php" [L]
+RewriteRule "^contact/$" "contact-us.php" [L]
+RewriteRule "^services/$" "service-icon.php" [L]
+RewriteRule "^faq/$" "faq.php" [L]
+
+
+
+RewriteRule "^home$" "index.php" [L]
+RewriteRule "^about$" "doctor-profile.php" [L]
+RewriteRule "^contact$" "contact-us.php" [L]
+RewriteRule "^services$" "service-icon.php" [L]
+RewriteRule "^faq$" "faq.php" [L]
